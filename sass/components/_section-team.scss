@@ -9,12 +9,13 @@
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
+	.section-title li {
+		flex-wrap: wrap;
+		display: flex;
+		width: 200px;
+	}
 }
-.section-title li {
-	flex-wrap: wrap;
-	display: flex;
-	width: 200px;
-}
+
 .item-class {
 	display: flex;
 	gap: 30px;
@@ -51,6 +52,9 @@
 		color: var(--primary-bg-color);
 		background-color: var(--primary-text-navigation);
 	}
+}
+.section {
+	padding: 50px;
 }
 .our-team-list {
 	gap: 10px;

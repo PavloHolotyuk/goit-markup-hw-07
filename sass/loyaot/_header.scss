@@ -1,3 +1,14 @@
+.header-mail {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+
+	text-decoration: none;
+	color: var(--portfolio-text-color);
+	transition-duration: 250ms;
+	transition-property: color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .portfolio-header {
 	display: flex;
 	flex-wrap: wrap;
@@ -6,25 +17,25 @@
 .page-header {
 	display: inline-block;
 	border-bottom: 1px solid #ececec;
+	.header-nav {
+		align-items: center;
+		display: flex;
+	}
+	.site-header {
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+	}
+	.section-item-link {
+		position: relative;
+		padding-bottom: 32px;
+	}
 }
 .page-header {
 	display: flex;
 	flex-wrap: wrap;
 }
-.header-nav {
-	align-items: center;
-	display: flex;
-}
 
-.section-item-link {
-	position: relative;
-	padding-bottom: 32px;
-}
-.site-header {
-	margin-left: auto;
-	display: flex;
-	align-items: center;
-}
 .current {
 	transition-property: background-color, color;
 	transition-duration: 250ms;
@@ -50,13 +61,16 @@
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-}
-.site-header .link:hover,
-.site-header .link:focus {
-	color: var(--primary-text-navigation);
-	transition-property: background-color, color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	.site-header {
+		&:focus,
+		&:hover {
+			color: var(--primary-text-navigation);
+			transition-property: background-color, color;
+			transition-duration: 250ms;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
 }
 
 .site-item:not(:first-child) {

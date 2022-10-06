@@ -29,25 +29,24 @@
 
 	background-color: #ffffff;
 	border-radius: 15px;
-}
+	.modal-btn {
+		opacity: 0;
+		position: absolute;
 
-.modal-btn {
-	opacity: 0;
-	position: absolute;
+		width: 11px;
+		height: 11px;
 
-	width: 11px;
-	height: 11px;
+		color: #000000;
+		border-radius: 50%;
+		padding: 0;
 
-	color: #000000;
-	border-radius: 50%;
-	padding: 0;
-
-	display: inline-flex;
-	align-items: center;
-	justify-content: right;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	transition: opacity 250ms;
+		display: inline-flex;
+		align-items: center;
+		justify-content: right;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition: opacity 250ms;
+	}
 }
 
 .backdrop.is-hidden {
@@ -150,24 +149,23 @@
 
 .modal-incide {
 	margin-bottom: 30px;
-}
+	.modal-incide-item {
+		display: flex;
+		gap: 10px;
+		justify-content: center;
+	}
 
-.modal-incide-item {
-	display: flex;
-	gap: 10px;
-	justify-content: center;
-}
+	.modal-incide-text {
+		font-size: 14px;
+		line-height: 1.71;
+		color: var(--portfolio-text-color);
+	}
 
-.modal-incide-text {
-	font-size: 14px;
-	line-height: 1.71;
-	color: var(--portfolio-text-color);
-}
-
-.modal-incide-link {
-	color: var(--primary-text-navigation);
-	font-size: 14px;
-	line-height: 1.71;
+	.modal-incide-link {
+		color: var(--primary-text-navigation);
+		font-size: 14px;
+		line-height: 1.71;
+	}
 }
 
 .modal-button {
