@@ -1,0 +1,159 @@
+.adress-footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--privary-bg-hero);
+}
+.footer-logo {
+	padding: 0;
+	color: var(--primary-bg-color);
+	font-family: Raleway, cursive;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: none;
+	letter-spacing: 0.03em;
+}
+
+.footer-logo__main {
+	color: var(--primary-text-navigation);
+}
+.footer-link:not(:last-child) {
+	margin-bottom: 9px;
+}
+.footer-link__item {
+	transition-property: backround-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo .logo-last {
+	color: var(--primary-bg-color);
+}
+.adress-info {
+	margin-top: 20px;
+	margin-bottom: 9px;
+}
+.adress-info p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.adress .adress-info {
+	color: var(--primary-bg-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	font-style: normal;
+}
+.footer-media {
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--primary-bg-color);
+}
+
+.social-media__list {
+	margin-top: 20px;
+	gap: 10px;
+	display: flex;
+}
+
+.social-media__item {
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+}
+.social-media__footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media__footer:hover,
+.social-media__footer:focus {
+	color: var(--primary-bg-color);
+	background-color: var(--primary-text-navigation);
+}
+.footer-label {
+	margin-left: auto;
+}
+
+.footer-item {
+	margin-bottom: 20px;
+
+	height: 16px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+
+.footer-form {
+	display: flex;
+}
+
+.footer-mail {
+	width: 358px;
+	height: 50px;
+	padding-left: 16px;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	color: var(--primary-bg-color);
+	border-radius: 4px;
+
+	transition: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-info .link:hover,
+.site-info .link:focus {
+	color: var(--primary-text-navigation);
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-info a {
+	color: var(--primary-bg-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+.site-info .link {
+	color: var(--footer--info);
+	font-style: normal;
+}
+.adress {
+	margin-top: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--privary-bg-hero);
+}
+.footer-last {
+	margin-left: 70px;
+}
+.footer-main {
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-media {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

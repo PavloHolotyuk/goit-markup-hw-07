@@ -1,0 +1,47 @@
+:root {
+	--primary-text-color: #21212;
+	--title-text-color: #196F3;
+	--accent-text-color: #757575;
+	--primary-text-navigation: #2196f3;
+	--primary-bg-color: #ffffff;
+	--primary-bg-button: #f5f4fa;
+	--privary-bg-hero: #2f303a;
+	--portfolio-color: #212121;
+	--portfolio-text-color: #757575;
+	--footer-bg-color: #2f303a;
+	--footer--info: rgba(255, 255, 255, 0.6);
+}
+body {
+	background-color: var(--primary-bg-color);
+	color: var(--primary-text-color);
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+}
+
+.button.primary {
+	margin: auto;
+	color: var(--primary-bg-color);
+	background-color: var(--primary-text-navigation);
+	border: none;
+	width: 216px;
+	padding: 10px 32px;
+	border-radius: 4px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	line-height: 1.87;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.header-mail {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+
+	text-decoration: none;
+	color: var(--portfolio-text-color);
+	transition-duration: 250ms;
+	transition-property: color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

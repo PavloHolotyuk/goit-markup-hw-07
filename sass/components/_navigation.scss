@@ -1,0 +1,35 @@
+.site-nav {
+	margin-left: 93px;
+	display: flex;
+}
+
+.site-nav .link {
+	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--primary-text-navigation);
+}
+
+.site-nav .link.current {
+	color: var(--primary-text-navigation);
+}
+
+.site-nav .item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.site-nav .item {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}

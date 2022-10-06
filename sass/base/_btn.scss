@@ -1,0 +1,81 @@
+.button-nav .link:hover,
+.button-nav .link:focus {
+	background-color: var(--primary-text-navigation);
+	color: var(--primary-bg-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button .link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-nav .link {
+	background-color: var(--primary-bg-button);
+	font-family: inherit;
+	color: var(--portfolio-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	border-radius: 4px;
+
+	transition-property: background-color, color, box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-button {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-bottom: 50px;
+}
+.button-nav .link {
+	border-bottom: 8px;
+	background-color: var(--primary-bg-button);
+	color: var(--portfolio-color);
+	text-decoration: none;
+	display: block;
+	line-height: 1.62;
+	border: none;
+	border-radius: 4px;
+	padding: 6px 22px;
+	letter-spacing: 0.03em;
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-mail {
+	display: flex;
+	height: 50px;
+	width: 200px;
+
+	border-radius: 4px;
+	margin-left: 12px;
+	align-items: center;
+	justify-content: center;
+	border: none;
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.14px;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	color: var(--primary-bg-color);
+	background-color: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+	cursor: pointer;
+
+	transition: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
